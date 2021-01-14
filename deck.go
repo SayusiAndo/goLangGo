@@ -28,7 +28,7 @@ func newDeck() deck {
 
 	for _, cardSuit := range cardSuits {
 		for _, cardValue := range cardValues {
-			cards = append(cards, strings.TrimSpace(cardSuit)+"of"+strings.TrimSpace(cardValue))
+			cards = append(cards, strings.TrimSpace(cardSuit)+" of "+strings.TrimSpace(cardValue))
 		}
 	}
 

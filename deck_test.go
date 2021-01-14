@@ -15,7 +15,7 @@ func TestNewDeckReturns16Cards(t *testing.T) {
 func TestFirstItem(t *testing.T) {
 	d := newDeck()
 
-	if d[0] != "SpadesofTwo" {
+	if d[0] != "Spades of Two" {
 		t.Errorf("First item is not Spades of Two, but %v", d[0])
 	}
 }
@@ -23,7 +23,7 @@ func TestFirstItem(t *testing.T) {
 func TestLastItem(t *testing.T) {
 	d := newDeck()
 
-	if d[len(d)-1] != "ClubsofAce" {
+	if d[len(d)-1] != "Clubs of Ace" {
 		t.Errorf("Last item is not Clubs of Ace, but %v", d[len(d)-1])
 	}
 }
